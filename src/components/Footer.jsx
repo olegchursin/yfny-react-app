@@ -61,9 +61,8 @@ export default() => {
                 / {yfny.socialMedia.nametag}</div>
             <div>{rcny.email}</div>
             <div style={styles.socialMediaGroup}>
-                <a style={styles.socialMediaLink} href={yfny.socialMedia.facebook}><FontAwesomeIcon style={styles.socialMediaIcon} icon={faFacebookSquare}/>
-                    <a style={styles.socialMediaLink} href={yfny.socialMedia.instagram}><FontAwesomeIcon style={styles.socialMediaIcon} icon={faInstagram}/></a>
-                </a>
+                <a style={styles.socialMediaLink} href={yfny.socialMedia.facebook}><FontAwesomeIcon style={styles.socialMediaIcon} icon={faFacebookSquare}/></a>
+                <a style={styles.socialMediaLink} href={yfny.socialMedia.instagram}><FontAwesomeIcon style={styles.socialMediaIcon} icon={faInstagram}/></a>
                 <a style={styles.socialMediaLink} href={yfny.socialMedia.twitter}><FontAwesomeIcon style={styles.socialMediaIcon} icon={faTwitterSquare}/></a>
             </div>
             <img
@@ -88,7 +87,11 @@ export default() => {
                     alt={img.rcnyLogoWhite.alt}/>
             </a>
             <div style={styles.webDevSection}>web dev //
-                <a style={styles.webDevLink} target='_blank' href="http://olegchursin.com">&#160;oleg chursin</a>
+                <a
+                    style={styles.webDevLink}
+                    target='_blank'
+                    rel="noopener noreferrer"
+                    href="http://olegchursin.com">&#160;oleg chursin</a>
             </div>
         </div>
     )

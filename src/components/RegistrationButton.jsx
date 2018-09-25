@@ -7,7 +7,7 @@ const styles = {
     registrationButton: {
         ...typography.lightSmallText,
         borderRadius: '50px',
-        margin: '0 40px 0 20px'
+        margin: '0 40px'
     }
 }
 

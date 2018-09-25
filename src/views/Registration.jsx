@@ -20,9 +20,11 @@ export class Registration extends Component {
                         src="https://docs.google.com/forms/d/e/1FAIpQLScBieN1X779Ry2iNmavPMZaj_G7kTGt8YC5CzbOObFvzdNQEQ/viewform?embedded=true"
                         width="640"
                         height="1700"
-                        frameborder="0"
-                        marginheight="0"
-                        marginwidth="0">Loading...</iframe>
+                        frameBorder="0"
+                        marginHeight="0"
+                        marginWidth="0"
+                        title="Registration form">Loading...</iframe>
+
                 </div>
             </div>
         )

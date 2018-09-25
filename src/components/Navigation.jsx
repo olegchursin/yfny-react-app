@@ -14,7 +14,8 @@ const styles = {
     },
     menuButton: {
         ...typography.lightSmallText,
-        borderRadius: '50px'
+        borderRadius: '50px',
+        marginRight: '-20px'
     },
     menuLink: {
         ...typography.lightSmallText
@@ -43,22 +44,22 @@ const menu = (
     <Menu>
         <Menu.Item>
             <Link to='/'>
-                <a style={styles.menuLink}>Домашняя страница</a>
+                <div style={styles.menuLink}>Домашняя страница</div>
             </Link>
         </Menu.Item>
         <Menu.Item>
             <Link to='/program'>
-                <a style={styles.menuLink}>Программа форума</a>
+                <div style={styles.menuLink}>Программа форума</div>
             </Link>
         </Menu.Item>
         <Menu.Item>
             <Link to='/registration'>
-                <a style={styles.menuLink}>Регистрация</a>
+                <div style={styles.menuLink}>Регистрация</div>
             </Link>
         </Menu.Item>
         <Menu.Item>
             <Link to='/contacts'>
-                <a style={styles.menuLink}>Контакты</a>
+                <div style={styles.menuLink}>Контакты</div>
             </Link>
         </Menu.Item>
     </Menu>
