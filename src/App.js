@@ -5,6 +5,7 @@ import Program from './views/Program'
 import Contact from './views/Contact';
 import Homepage from './views/Homepage';
 import Registration from './views/Registration'
+import PresentationRegistration from './views/PresentationRegistration'
 
 import Navigation from './components/Navigation'
 import Footer from './components/Footer'
@@ -31,6 +32,7 @@ class App extends Component {
             <Route path="/program" component={Program}/>
             <Route path="/contacts" component={Contact}/>
             <Route path="/registration" component={Registration}/>
+            <Route path="/presentation" component={PresentationRegistration}/>
           </div>
           <Footer/>
         </div>

@@ -10,7 +10,7 @@ const styles = {
     }
 }
 
-export class Registration extends Component {
+export class PresentationRegistration extends Component {
     scrollToTop = () => {
         window.scroll({top: 0, behavior: "smooth"});
     }
@@ -18,22 +18,21 @@ export class Registration extends Component {
     render() {
         return (
             <div>
-                <InnerPageHero title={'Регистрация'}/>
+                <InnerPageHero title={'Проекты'}/>
                 <div style={styles.form}>
                     <iframe
+                        title='PresentationRegistration'
                         onLoad={this.scrollToTop}
-                        src="https://docs.google.com/forms/d/e/1FAIpQLScBieN1X779Ry2iNmavPMZaj_G7kTGt8YC5CzbOObFvzdNQEQ/viewform?embedded=true"
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSdi8yawTjAA6Hhv7cCIHSkXu5_XnMSVRDGYx_utLrWeh9Ro0Q/viewform?embedded=true"
                         width="640"
-                        height="1700"
+                        height="1738"
                         frameBorder="0"
                         marginHeight="0"
-                        marginWidth="0"
-                        title="Registration form">Loading...</iframe>
-
+                        marginWidth="0">Loading...</iframe>
                 </div>
             </div>
         )
     }
 }
 
-export default Registration
+export default PresentationRegistration
