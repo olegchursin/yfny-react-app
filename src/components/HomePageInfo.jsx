@@ -1,5 +1,5 @@
 import React from 'react';
-import {rcny} from '../utils/info';
+import {rcny, russianYouth} from '../utils/info';
 import {typography} from '../utils/styles';
 import {Divider} from 'antd';
 import RegistrationButton from './RegistrationButton'
@@ -59,6 +59,10 @@ const HomePageInfo = () => {
                     <h3>Форум проводится</h3>
                     <p style={styles.paragraph}>
                         <a href={rcny.website}>Русским центром в Нью-Йорке (Russian Center NY)</a>
+                    </p>
+                    <h3>при поддержке</h3>
+                    <p style={styles.paragraph}>
+                        <a href={russianYouth.website}>Общества Русская молодежь Америки</a>
                     </p>
                     <h3>под эгидой</h3>
                     <p style={styles.paragraph}>
