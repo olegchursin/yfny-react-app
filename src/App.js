@@ -1,12 +1,10 @@
-import React, {Component} from 'react';
+import Program from './views/Program';
 import {BrowserRouter as Router, Route} from "react-router-dom";
-
-import Program from './views/Program'
+import React, {Component} from 'react';
 import Contact from './views/Contact';
 import Homepage from './views/Homepage';
 import Registration from './views/Registration'
 import PresentationRegistration from './views/PresentationRegistration'
-
 import Navigation from './components/Navigation'
 import Footer from './components/Footer'
 
