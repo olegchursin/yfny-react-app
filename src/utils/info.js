@@ -5,6 +5,11 @@ export const rcny = {
     email: 'hello@russiancenterny.org'
 }
 
+export const russianYouth = {
+    name: 'Русская молодежь Америки',
+    website: 'http://russianyouthofamerica.org'
+}
+
 export const yfny = {
     nameEn: 'Youth Forum New York',
     nameRu: 'Молодежный форум в Нью-Йорке',
