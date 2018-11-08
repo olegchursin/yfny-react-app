@@ -1,14 +1,14 @@
-import React, {Component} from 'react';
-import {BrowserRouter as Router, Route} from "react-router-dom";
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import Program from './views/Program'
+import Program from './views/Program';
 import Contact from './views/Contact';
 import Homepage from './views/Homepage';
-import Registration from './views/Registration'
-import PresentationRegistration from './views/PresentationRegistration'
+import Registration from './views/Registration';
+import PresentationRegistration from './views/PresentationRegistration';
 
-import Navigation from './components/Navigation'
-import Footer from './components/Footer'
+import Navigation from './components/Navigation';
+import Footer from './components/Footer';
 
 const styles = {
   appContent: {
@@ -19,22 +19,22 @@ const styles = {
     minHeight: '100vh',
     flexDirection: 'column'
   }
-}
+};
 
 class App extends Component {
   render() {
     return (
       <Router>
         <div style={styles.appWrapper}>
-          <Navigation/>
+          <Navigation />
           <div style={styles.appContent}>
-            <Route exact path="/" component={Homepage}/>
-            <Route path="/program" component={Program}/>
-            <Route path="/contacts" component={Contact}/>
-            <Route path="/registration" component={Registration}/>
-            <Route path="/presentation" component={PresentationRegistration}/>
+            <Route exact path="/" component={Homepage} />
+            <Route path="/program" component={Program} />
+            <Route path="/contacts" component={Contact} />
+            <Route path="/registration" component={Registration} />
+            <Route path="/presentation" component={PresentationRegistration} />
           </div>
-          <Footer/>
+          <Footer />
         </div>
       </Router>
     );
