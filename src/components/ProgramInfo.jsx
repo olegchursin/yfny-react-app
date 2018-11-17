@@ -40,57 +40,69 @@ const ProgramInfo = () => {
           <Timeline.Item
             dot={<Icon type="clock-circle-o" style={{ fontSize: '16px' }} />}
           >
-            <p>15:00-16:00</p>
+            <p>15.00-16.00</p>
             <h4>РЕГИСТРАЦИЯ УЧАСТНИКОВ</h4>
           </Timeline.Item>
           <Timeline.Item
             dot={<Icon type="clock-circle-o" style={{ fontSize: '16px' }} />}
           >
-            <p>16:00-17:00</p>
-            <h4>ЧАСТЬ ПЕРВАЯ: СОХРАНЕНИЕ ИСТОРИЧЕСКОГО НАСЛЕДИЯ</h4>
+            <p>16.00-16.45</p>
+            <h4>ЧАСТЬ ПЕРВАЯ: СОХРАНЕНИЕ НАСЛЕДИЯ</h4>
             <p>
-              Посвящена популяризации русской культуры, традиций и языка и
-              укреплению связей с Россией.
+              Посвящена укреплению связей с Россией, сохранению российского
+              культурно исторического наследия и традиций
             </p>
-            <p>Приветственное слово: Анатолий Антонов, Посол РФ в США</p>
-          </Timeline.Item>
-          <Timeline.Item
-            dot={<Icon type="clock-circle-o" style={{ fontSize: '16px' }} />}
-          >
-            <p>17.00–17.15</p>
-            <h4>КОФЕ-БРЕЙК</h4>
-          </Timeline.Item>
-          <Timeline.Item
-            dot={<Icon type="clock-circle-o" style={{ fontSize: '16px' }} />}
-          >
-            <p>17.15–18.30</p>
-            <h4>ЧАСТЬ ВТОРАЯ: КОНСОЛИДАЦИЯ РУССКО-АМЕРИКАНСКОЙ МОЛОДЕЖИ</h4>
             <p>
-              Посвящена консолидации русско-американской молодежи в Америке.
+              Приветствие: <strong>Анатолий Антонов</strong>, Посол РФ в США
             </p>
           </Timeline.Item>
           <Timeline.Item
             dot={<Icon type="clock-circle-o" style={{ fontSize: '16px' }} />}
           >
-            <p>18:30-19.30</p>
+            <p>16.45–17.15</p>
+            <h4>ПЕРЕРЫВ</h4>
+          </Timeline.Item>
+          <Timeline.Item
+            dot={<Icon type="clock-circle-o" style={{ fontSize: '16px' }} />}
+          >
+            <p>17.15–18.15</p>
+            <h4>ЧАСТЬ ВТОРАЯ: КОНСОЛИДАЦИЯ</h4>
+            <p>Посвящена консолидации русско-американской молодежи в Америке</p>
+            <p>
+              Модератор: <strong>Елена Брэнсон</strong>, Председатель КСОРС США
+            </p>
+          </Timeline.Item>
+          <Timeline.Item
+            dot={<Icon type="clock-circle-o" style={{ fontSize: '16px' }} />}
+          >
+            <p>18.15-19.20</p>
             <h4>ЧАСТЬ ТРЕТЬЯ: ПРЕЗЕНТАЦИИ МОЛОДЕЖНЫХ ПРОЕКТОВ</h4>
             <p>
               Презентации прошедших предварительный отбор молодежных проектов.
+              10 проектов.
+            </p>
+            <p>
+              Модератор: <strong>Игорь Кочан</strong>, Руководитель молодежного
+              отделения КСОРС США
             </p>
           </Timeline.Item>
           <Timeline.Item
             dot={<Icon type="clock-circle-o" style={{ fontSize: '16px' }} />}
           >
-            <p>19:30-21.00</p>
-            <h4>
-              ЧАСТЬ ЧЕТВЕРТАЯ: ПРИЕМ ОТ ИМЕНИ ПОСЛА РФ В США АНАТОЛИЯ АНТОНОВА.
-            </h4>
+            <p>19.20-19.30</p>
+            <h4>Награждение победителей молодежных проектов</h4>
           </Timeline.Item>
           <Timeline.Item
             dot={<Icon type="clock-circle-o" style={{ fontSize: '16px' }} />}
           >
-            <p>21:00-22.30</p>
-            <h4>ФИЛЬМ</h4>
+            <p>19.30-20.00</p>
+            <h4>Концерт. В программе русские арии и романсы</h4>
+          </Timeline.Item>
+          <Timeline.Item
+            dot={<Icon type="clock-circle-o" style={{ fontSize: '16px' }} />}
+          >
+            <p>20.00-22.00</p>
+            <h4>Ужин</h4>
           </Timeline.Item>
         </Timeline>
       </div>
